@@ -206,7 +206,6 @@ const MagicCard = ({
         } as CSSProperties
       }
     >
-      {/* Border */}
       <div
         className={cn(
           "pointer-events-none absolute inset-0 h-full w-full rounded-2xl bg-gray-300 transition-opacity duration-500 dark:bg-gray-700",
@@ -215,7 +214,6 @@ const MagicCard = ({
         )}
       />
 
-      {/* Background */}
       <div className={"absolute inset-[1px] rounded-2xl bg-background"} />
 
       {children}

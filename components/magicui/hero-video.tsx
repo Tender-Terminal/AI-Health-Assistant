@@ -48,7 +48,6 @@ const HeroVideo = ({ children, image, className }: HeroVideoProps) => {
             />
           </svg>
 
-          {/* <span className="dark:text-white">play</span> */}
         </ShimmerButton>
       </div>
       <Transition appear show={isOpen} as={Fragment}>
